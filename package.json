@@ -1,0 +1,26 @@
+{
+  "name": "automacao-appium",
+  "version": "1.0.0",
+  "description": "Projeto de testes automatizados para aplicativos Mobile utilizando Appium e CodeceptJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "appium",
+    "clean": "npx rimraf output",
+    "android": "codeceptjs run -c codecept.conf.js --profile android ",
+    "ios": "codeceptjs run -c codecept.conf.js --profile ios "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "allure-commandline": "^2.18.1",
+    "codeceptjs": "^3.3.4",
+    "webdriverio": "^6.12.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^2.6.6",
+    "random-number": "^0.0.9"
+  }
+}

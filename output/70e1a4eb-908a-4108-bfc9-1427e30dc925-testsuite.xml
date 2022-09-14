@@ -1,0 +1,730 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663095986545' stop='1663096048027'>
+    <name>Aluno @Aluno</name>
+    <title>Aluno @Aluno</title>
+    <test-cases>
+        <test-case start='1663095986546' status='passed' stop='1663095999419'>
+            <name>Adicionar aluno @AdicionarAluno</name>
+            <title>Adicionar aluno @AdicionarAluno</title>
+            <labels>
+                <label name='tag' value='@Aluno'/>
+                <label name='tag' value='@AdicionarAluno'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1663095990066' status='passed' stop='1663095994861'>
+                    <name>Dado: que Matheus efetuou o login no appqazando </name>
+                    <title>Dado: que Matheus efetuou o login no appqazando </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663095990067' status='passed' stop='1663095990912'>
+                            <name>Eu aguardo pelo elemento "~email", 20</name>
+                            <title>Eu aguardo pelo elemento "~email", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095990913' status='passed' stop='1663095991966'>
+                            <name>Eu preencho o campo "~email", "teste@teste.com"</name>
+                            <title>Eu preencho o campo "~email", "teste@teste.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095991967' status='passed' stop='1663095992485'>
+                            <name>Eu aguardo pelo elemento "~senha", 20</name>
+                            <title>Eu aguardo pelo elemento "~senha", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095992485' status='passed' stop='1663095993040'>
+                            <name>Eu preencho o campo "~senha", "123456"</name>
+                            <title>Eu preencho o campo "~senha", "123456"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095993040' status='passed' stop='1663095993555'>
+                            <name>Eu aguardo pelo elemento "~entrar", 20</name>
+                            <title>Eu aguardo pelo elemento "~entrar", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095993555' status='passed' stop='1663095993718'>
+                            <name>Eu tap "~entrar"</name>
+                            <title>Eu tap "~entrar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095993719' status='passed' stop='1663095994805'>
+                            <name>Eu aguardo pelo elemento "~codigo", 10</name>
+                            <title>Eu aguardo pelo elemento "~codigo", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095994805' status='passed' stop='1663095994834'>
+                            <name>Eu aguardo pelo elemento "~aluno", 10</name>
+                            <title>Eu aguardo pelo elemento "~aluno", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095994834' status='passed' stop='1663095994857'>
+                            <name>Eu aguardo pelo elemento "~search", 10</name>
+                            <title>Eu aguardo pelo elemento "~search", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663095994861' status='passed' stop='1663095996523'>
+                    <name>Quando: ele preenher as informações corretamente para adicionar um aluno </name>
+                    <title>Quando: ele preenher as informações corretamente para adicionar um aluno </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663095994861' status='passed' stop='1663095994898'>
+                            <name>Eu aguardo pelo elemento "~codigo", 10</name>
+                            <title>Eu aguardo pelo elemento "~codigo", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095994898' status='passed' stop='1663095995475'>
+                            <name>Eu preencho o campo "~codigo", 333</name>
+                            <title>Eu preencho o campo "~codigo", 333</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095995475' status='passed' stop='1663095995506'>
+                            <name>Eu aguardo pelo elemento "~aluno", 10</name>
+                            <title>Eu aguardo pelo elemento "~aluno", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095995506' status='passed' stop='1663095996523'>
+                            <name>Eu preencho o campo "~aluno", "Matheus"</name>
+                            <title>Eu preencho o campo "~aluno", "Matheus"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663095996523' status='passed' stop='1663095997202'>
+                    <name>E: clicar no botão Salvar </name>
+                    <title>E: clicar no botão Salvar </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663095996523' status='passed' stop='1663095996556'>
+                            <name>Eu aguardo pelo elemento "~salvar", 10</name>
+                            <title>Eu aguardo pelo elemento "~salvar", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095996556' status='passed' stop='1663095997202'>
+                            <name>Eu tap "~salvar"</name>
+                            <title>Eu tap "~salvar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663095997202' status='undefined'>
+                    <name>Entao: deve ser apresentado de sucesso informando que o aluno foi cadastrado </name>
+                    <title>Entao: deve ser apresentado de sucesso informando que o aluno foi cadastrado </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663095997202' status='passed' stop='1663095998684'>
+                            <name>Eu preencho o campo "~search", "Matheus"</name>
+                            <title>Eu preencho o campo "~search", "Matheus"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095998684' status='passed' stop='1663095998685'>
+                            <name>Eu run on i o s () => {
+                                  I.seeElement('(//XCUIElementTypeOther[@name="' + codigoGerado + '"])[2]')
+                                }</name>
+                            <title>Eu run on i o s () => {
+                                  I.seeElement('(//XCUIElementTypeOther[@name="' + codigoGerado + '"])[2]')
+                                }</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095998685' status='passed' stop='1663095998685'>
+                            <name>Eu run on android () => {
+                                  I.seeElement('//android.view.ViewGroup[@content-desc="' + codigoGerado + '"]/android.widget.TextView')
+                                }</name>
+                            <title>Eu run on android () => {
+                                  I.seeElement('//android.view.ViewGroup[@content-desc="' + codigoGerado + '"]/android.widget.TextView')
+                                }</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663095998685' status='passed' stop='1663095999419'>
+                            <name>Eu vejo elemento "//android.view.ViewGroup[@content-desc="333"]/android.widget.TextView"</name>
+                            <title>Eu vejo elemento "//android.view.ViewGroup[@content-desc="333"]/android.widget.TextView"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1663095999576' status='passed' stop='1663096010224'>
+            <name>Buscar Aluno @BuscarAluno</name>
+            <title>Buscar Aluno @BuscarAluno</title>
+            <labels>
+                <label name='tag' value='@Aluno'/>
+                <label name='tag' value='@BuscarAluno'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1663096003028' status='passed' stop='1663096008255'>
+                    <name>Dado: que Matheus efetuou o login no appqazando </name>
+                    <title>Dado: que Matheus efetuou o login no appqazando </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096003028' status='passed' stop='1663096003775'>
+                            <name>Eu aguardo pelo elemento "~email", 20</name>
+                            <title>Eu aguardo pelo elemento "~email", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096003775' status='passed' stop='1663096004828'>
+                            <name>Eu preencho o campo "~email", "teste@teste.com"</name>
+                            <title>Eu preencho o campo "~email", "teste@teste.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096004828' status='passed' stop='1663096005340'>
+                            <name>Eu aguardo pelo elemento "~senha", 20</name>
+                            <title>Eu aguardo pelo elemento "~senha", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096005340' status='passed' stop='1663096006382'>
+                            <name>Eu preencho o campo "~senha", "123456"</name>
+                            <title>Eu preencho o campo "~senha", "123456"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096006382' status='passed' stop='1663096006897'>
+                            <name>Eu aguardo pelo elemento "~entrar", 20</name>
+                            <title>Eu aguardo pelo elemento "~entrar", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096006898' status='passed' stop='1663096007083'>
+                            <name>Eu tap "~entrar"</name>
+                            <title>Eu tap "~entrar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096007083' status='passed' stop='1663096008200'>
+                            <name>Eu aguardo pelo elemento "~codigo", 10</name>
+                            <title>Eu aguardo pelo elemento "~codigo", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096008201' status='passed' stop='1663096008226'>
+                            <name>Eu aguardo pelo elemento "~aluno", 10</name>
+                            <title>Eu aguardo pelo elemento "~aluno", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096008226' status='passed' stop='1663096008253'>
+                            <name>Eu aguardo pelo elemento "~search", 10</name>
+                            <title>Eu aguardo pelo elemento "~search", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096008255' status='passed' stop='1663096008828'>
+                    <name>Quando: ele pesquisar pelo nome de um aluno existente no App </name>
+                    <title>Quando: ele pesquisar pelo nome de um aluno existente no App </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096008255' status='passed' stop='1663096008281'>
+                            <name>Eu aguardo pelo elemento "~search", 10</name>
+                            <title>Eu aguardo pelo elemento "~search", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096008281' status='passed' stop='1663096008828'>
+                            <name>Eu preencho o campo "~search", "Eduardo Finotti"</name>
+                            <title>Eu preencho o campo "~search", "Eduardo Finotti"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096008828' status='passed' stop='1663096010224'>
+                    <name>Entao: deve ser apresentado o aluno correspondente ao nome inserido </name>
+                    <title>Entao: deve ser apresentado o aluno correspondente ao nome inserido </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096008829' status='passed' stop='1663096009862'>
+                            <name>Eu vejo "12323"</name>
+                            <title>Eu vejo "12323"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096009862' status='passed' stop='1663096010224'>
+                            <name>Eu nao vejo "~98839"</name>
+                            <title>Eu nao vejo "~98839"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1663096010362' status='passed' stop='1663096023704'>
+            <name>Tentativa de inserir um aluno com um código já cadastrado @AdicionarAlunoCodigoExistente</name>
+            <title>Tentativa de inserir um aluno com um código já cadastrado @AdicionarAlunoCodigoExistente</title>
+            <labels>
+                <label name='tag' value='@Aluno'/>
+                <label name='tag' value='@AdicionarAlunoCodigoExistente'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1663096013815' status='passed' stop='1663096019030'>
+                    <name>Dado: que Matheus efetuou o login no appqazando </name>
+                    <title>Dado: que Matheus efetuou o login no appqazando </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096013815' status='passed' stop='1663096014604'>
+                            <name>Eu aguardo pelo elemento "~email", 20</name>
+                            <title>Eu aguardo pelo elemento "~email", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096014604' status='passed' stop='1663096015648'>
+                            <name>Eu preencho o campo "~email", "teste@teste.com"</name>
+                            <title>Eu preencho o campo "~email", "teste@teste.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096015648' status='passed' stop='1663096016164'>
+                            <name>Eu aguardo pelo elemento "~senha", 20</name>
+                            <title>Eu aguardo pelo elemento "~senha", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096016164' status='passed' stop='1663096017213'>
+                            <name>Eu preencho o campo "~senha", "123456"</name>
+                            <title>Eu preencho o campo "~senha", "123456"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096017213' status='passed' stop='1663096017727'>
+                            <name>Eu aguardo pelo elemento "~entrar", 20</name>
+                            <title>Eu aguardo pelo elemento "~entrar", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096017728' status='passed' stop='1663096017901'>
+                            <name>Eu tap "~entrar"</name>
+                            <title>Eu tap "~entrar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096017901' status='passed' stop='1663096018972'>
+                            <name>Eu aguardo pelo elemento "~codigo", 10</name>
+                            <title>Eu aguardo pelo elemento "~codigo", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096018972' status='passed' stop='1663096019002'>
+                            <name>Eu aguardo pelo elemento "~aluno", 10</name>
+                            <title>Eu aguardo pelo elemento "~aluno", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096019002' status='passed' stop='1663096019027'>
+                            <name>Eu aguardo pelo elemento "~search", 10</name>
+                            <title>Eu aguardo pelo elemento "~search", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096019030' status='passed' stop='1663096020952'>
+                    <name>Quando: ele tentar adicionar um aluno com um código já cadastrado </name>
+                    <title>Quando: ele tentar adicionar um aluno com um código já cadastrado </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096019030' status='passed' stop='1663096019053'>
+                            <name>Eu aguardo pelo elemento "~codigo", 10</name>
+                            <title>Eu aguardo pelo elemento "~codigo", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096019053' status='passed' stop='1663096019899'>
+                            <name>Eu preencho o campo "~codigo", "12323"</name>
+                            <title>Eu preencho o campo "~codigo", "12323"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096019899' status='passed' stop='1663096019935'>
+                            <name>Eu aguardo pelo elemento "~aluno", 10</name>
+                            <title>Eu aguardo pelo elemento "~aluno", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096019935' status='passed' stop='1663096020952'>
+                            <name>Eu preencho o campo "~aluno", "Felipe Oliveira"</name>
+                            <title>Eu preencho o campo "~aluno", "Felipe Oliveira"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096020952' status='passed' stop='1663096021651'>
+                    <name>E: clicar no botão Salvar </name>
+                    <title>E: clicar no botão Salvar </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096020953' status='passed' stop='1663096021483'>
+                            <name>Eu aguardo pelo elemento "~salvar", 10</name>
+                            <title>Eu aguardo pelo elemento "~salvar", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096021483' status='passed' stop='1663096021651'>
+                            <name>Eu tap "~salvar"</name>
+                            <title>Eu tap "~salvar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096021651' status='passed' stop='1663096023704'>
+                    <name>Entao: deve ser carregado uma mensagem informando que já tem um aluno cadastrado com aquele código </name>
+                    <title>Entao: deve ser carregado uma mensagem informando que já tem um aluno cadastrado com aquele código </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096021651' status='passed' stop='1663096023657'>
+                            <name>Eu aguardo 2</name>
+                            <title>Eu aguardo 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096023657' status='passed' stop='1663096023704'>
+                            <name>Eu vejo elemento "~haveCode"</name>
+                            <title>Eu vejo elemento "~haveCode"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1663096023854' status='passed' stop='1663096035844'>
+            <name>Tentativa de inserir um aluno sem preencher o campo Código @AdicionarAlunoSemInformarOCodigo</name>
+            <title>Tentativa de inserir um aluno sem preencher o campo Código @AdicionarAlunoSemInformarOCodigo</title>
+            <labels>
+                <label name='tag' value='@Aluno'/>
+                <label name='tag' value='@AdicionarAlunoSemInformarOCodigo'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1663096027205' status='passed' stop='1663096032543'>
+                    <name>Dado: que Matheus efetuou o login no appqazando </name>
+                    <title>Dado: que Matheus efetuou o login no appqazando </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096027205' status='passed' stop='1663096028038'>
+                            <name>Eu aguardo pelo elemento "~email", 20</name>
+                            <title>Eu aguardo pelo elemento "~email", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096028038' status='passed' stop='1663096029089'>
+                            <name>Eu preencho o campo "~email", "teste@teste.com"</name>
+                            <title>Eu preencho o campo "~email", "teste@teste.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096029089' status='passed' stop='1663096029599'>
+                            <name>Eu aguardo pelo elemento "~senha", 20</name>
+                            <title>Eu aguardo pelo elemento "~senha", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096029599' status='passed' stop='1663096030647'>
+                            <name>Eu preencho o campo "~senha", "123456"</name>
+                            <title>Eu preencho o campo "~senha", "123456"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096030648' status='passed' stop='1663096031164'>
+                            <name>Eu aguardo pelo elemento "~entrar", 20</name>
+                            <title>Eu aguardo pelo elemento "~entrar", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096031164' status='passed' stop='1663096031335'>
+                            <name>Eu tap "~entrar"</name>
+                            <title>Eu tap "~entrar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096031335' status='passed' stop='1663096032490'>
+                            <name>Eu aguardo pelo elemento "~codigo", 10</name>
+                            <title>Eu aguardo pelo elemento "~codigo", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096032490' status='passed' stop='1663096032519'>
+                            <name>Eu aguardo pelo elemento "~aluno", 10</name>
+                            <title>Eu aguardo pelo elemento "~aluno", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096032519' status='passed' stop='1663096032541'>
+                            <name>Eu aguardo pelo elemento "~search", 10</name>
+                            <title>Eu aguardo pelo elemento "~search", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096032543' status='passed' stop='1663096033112'>
+                    <name>Quando: ele tentar adicionar um aluno sem informar o código </name>
+                    <title>Quando: ele tentar adicionar um aluno sem informar o código </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096032543' status='passed' stop='1663096032568'>
+                            <name>Eu aguardo pelo elemento "~aluno", 10</name>
+                            <title>Eu aguardo pelo elemento "~aluno", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096032568' status='passed' stop='1663096033112'>
+                            <name>Eu preencho o campo "~aluno", "Felipe Oliveira"</name>
+                            <title>Eu preencho o campo "~aluno", "Felipe Oliveira"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096033112' status='passed' stop='1663096033801'>
+                    <name>E: clicar no botão Salvar </name>
+                    <title>E: clicar no botão Salvar </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096033112' status='passed' stop='1663096033639'>
+                            <name>Eu aguardo pelo elemento "~salvar", 10</name>
+                            <title>Eu aguardo pelo elemento "~salvar", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096033640' status='passed' stop='1663096033801'>
+                            <name>Eu tap "~salvar"</name>
+                            <title>Eu tap "~salvar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096033801' status='undefined'>
+                    <name>Entao: deve ser carregado uma mensagem informando que todos os campos devem ser preenchidos </name>
+                    <title>Entao: deve ser carregado uma mensagem informando que todos os campos devem ser preenchidos </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096033801' status='passed' stop='1663096033802'>
+                            <name>Eu run on i o s () => {
+                                I.wait(2); 
+                                I.seeElement(pageHome.textos.txtCamposNaoPreenchidos); 
+                              }</name>
+                            <title>Eu run on i o s () => {
+                                I.wait(2); 
+                                I.seeElement(pageHome.textos.txtCamposNaoPreenchidos); 
+                              }</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096033802' status='passed' stop='1663096033802'>
+                            <name>Eu run on android () => {
+                                I.wait(2); 
+                                I.seeElement(pageHome.textos.txtCamposNaoPreenchidos);
+                              }</name>
+                            <title>Eu run on android () => {
+                                I.wait(2); 
+                                I.seeElement(pageHome.textos.txtCamposNaoPreenchidos);
+                              }</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096033802' status='passed' stop='1663096035806'>
+                            <name>Eu aguardo 2</name>
+                            <title>Eu aguardo 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096035806' status='passed' stop='1663096035844'>
+                            <name>Eu vejo elemento {"android":"Os campos devem ser preenchidos!","ios":"(//XCUIElementTypeStaticText[@name=\"Os campos devem ser preenchidos!\"])"}</name>
+                            <title>Eu vejo elemento {"android":"Os campos devem ser preenchidos!","ios":"(//XCUIElementTypeStaticText[@name=\"Os campos devem ser preenchidos!\"])"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1663096035992' status='passed' stop='1663096047877'>
+            <name>Tentativa de inserir um aluno sem preencher o campo Nome @AdicionarAlunoSemInformarONome</name>
+            <title>Tentativa de inserir um aluno sem preencher o campo Nome @AdicionarAlunoSemInformarONome</title>
+            <labels>
+                <label name='tag' value='@Aluno'/>
+                <label name='tag' value='@AdicionarAlunoSemInformarONome'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1663096039406' status='passed' stop='1663096044577'>
+                    <name>Dado: que Matheus efetuou o login no appqazando </name>
+                    <title>Dado: que Matheus efetuou o login no appqazando </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096039406' status='passed' stop='1663096040150'>
+                            <name>Eu aguardo pelo elemento "~email", 20</name>
+                            <title>Eu aguardo pelo elemento "~email", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096040150' status='passed' stop='1663096041204'>
+                            <name>Eu preencho o campo "~email", "teste@teste.com"</name>
+                            <title>Eu preencho o campo "~email", "teste@teste.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096041204' status='passed' stop='1663096041717'>
+                            <name>Eu aguardo pelo elemento "~senha", 20</name>
+                            <title>Eu aguardo pelo elemento "~senha", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096041718' status='passed' stop='1663096042765'>
+                            <name>Eu preencho o campo "~senha", "123456"</name>
+                            <title>Eu preencho o campo "~senha", "123456"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096042765' status='passed' stop='1663096043281'>
+                            <name>Eu aguardo pelo elemento "~entrar", 20</name>
+                            <title>Eu aguardo pelo elemento "~entrar", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096043281' status='passed' stop='1663096043452'>
+                            <name>Eu tap "~entrar"</name>
+                            <title>Eu tap "~entrar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096043452' status='passed' stop='1663096044524'>
+                            <name>Eu aguardo pelo elemento "~codigo", 10</name>
+                            <title>Eu aguardo pelo elemento "~codigo", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096044524' status='passed' stop='1663096044551'>
+                            <name>Eu aguardo pelo elemento "~aluno", 10</name>
+                            <title>Eu aguardo pelo elemento "~aluno", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096044551' status='passed' stop='1663096044574'>
+                            <name>Eu aguardo pelo elemento "~search", 10</name>
+                            <title>Eu aguardo pelo elemento "~search", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096044577' status='passed' stop='1663096045147'>
+                    <name>Quando: ele tentar adicionar um aluno sem informar o nome </name>
+                    <title>Quando: ele tentar adicionar um aluno sem informar o nome </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096044577' status='passed' stop='1663096044604'>
+                            <name>Eu aguardo pelo elemento "~codigo", 10</name>
+                            <title>Eu aguardo pelo elemento "~codigo", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096044604' status='passed' stop='1663096045147'>
+                            <name>Eu preencho o campo "~codigo", "12323"</name>
+                            <title>Eu preencho o campo "~codigo", "12323"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096045147' status='passed' stop='1663096045836'>
+                    <name>E: clicar no botão Salvar </name>
+                    <title>E: clicar no botão Salvar </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096045147' status='passed' stop='1663096045679'>
+                            <name>Eu aguardo pelo elemento "~salvar", 10</name>
+                            <title>Eu aguardo pelo elemento "~salvar", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096045679' status='passed' stop='1663096045835'>
+                            <name>Eu tap "~salvar"</name>
+                            <title>Eu tap "~salvar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096045836' status='undefined'>
+                    <name>Entao: deve ser carregado uma mensagem informando que todos os campos devem ser preenchidos </name>
+                    <title>Entao: deve ser carregado uma mensagem informando que todos os campos devem ser preenchidos </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096045836' status='passed' stop='1663096045836'>
+                            <name>Eu run on i o s () => {
+                                I.wait(2); 
+                                I.seeElement(pageHome.textos.txtCamposNaoPreenchidos); 
+                              }</name>
+                            <title>Eu run on i o s () => {
+                                I.wait(2); 
+                                I.seeElement(pageHome.textos.txtCamposNaoPreenchidos); 
+                              }</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096045836' status='passed' stop='1663096045836'>
+                            <name>Eu run on android () => {
+                                I.wait(2); 
+                                I.seeElement(pageHome.textos.txtCamposNaoPreenchidos);
+                              }</name>
+                            <title>Eu run on android () => {
+                                I.wait(2); 
+                                I.seeElement(pageHome.textos.txtCamposNaoPreenchidos);
+                              }</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096045836' status='passed' stop='1663096047840'>
+                            <name>Eu aguardo 2</name>
+                            <title>Eu aguardo 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096047840' status='passed' stop='1663096047877'>
+                            <name>Eu vejo elemento {"android":"Os campos devem ser preenchidos!","ios":"(//XCUIElementTypeStaticText[@name=\"Os campos devem ser preenchidos!\"])"}</name>
+                            <title>Eu vejo elemento {"android":"Os campos devem ser preenchidos!","ios":"(//XCUIElementTypeStaticText[@name=\"Os campos devem ser preenchidos!\"])"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

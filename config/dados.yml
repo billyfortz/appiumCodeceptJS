@@ -1,0 +1,14 @@
+login: {
+  email: 'teste@teste.com', 
+  senha: '123456'
+}
+
+loginInvalido: {
+  email: 'teste@invalido',
+  senha: '123456'
+}
+
+loginSemInformarSenha: {
+  email: 'teste@teste.com',
+  senha: ''
+}

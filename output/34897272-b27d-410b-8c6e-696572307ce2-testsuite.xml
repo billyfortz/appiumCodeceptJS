@@ -1,0 +1,361 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663096048041' stop='1663096082322'>
+    <name>Login @Login</name>
+    <title>Login @Login</title>
+    <test-cases>
+        <test-case start='1663096048041' status='passed' stop='1663096056228'>
+            <name>Login com sucesso @FazerLogin</name>
+            <title>Login com sucesso @FazerLogin</title>
+            <labels>
+                <label name='tag' value='@Login'/>
+                <label name='tag' value='@FazerLogin'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1663096051446' status='passed' stop='1663096054338'>
+                    <name>Dado: que Paulo prencha corretamente seus dados </name>
+                    <title>Dado: que Paulo prencha corretamente seus dados </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096051447' status='passed' stop='1663096052220'>
+                            <name>Eu aguardo pelo elemento "~email", 20</name>
+                            <title>Eu aguardo pelo elemento "~email", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096052220' status='passed' stop='1663096052779'>
+                            <name>Eu preencho o campo "~email", "teste@teste.com"</name>
+                            <title>Eu preencho o campo "~email", "teste@teste.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096052779' status='passed' stop='1663096053295'>
+                            <name>Eu aguardo pelo elemento "~senha", 20</name>
+                            <title>Eu aguardo pelo elemento "~senha", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096053296' status='passed' stop='1663096054338'>
+                            <name>Eu preencho o campo "~senha", "123456"</name>
+                            <title>Eu preencho o campo "~senha", "123456"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096054338' status='passed' stop='1663096055020'>
+                    <name>Quando: ele clicar no botão Entrar </name>
+                    <title>Quando: ele clicar no botão Entrar </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096054338' status='passed' stop='1663096054368'>
+                            <name>Eu aguardo pelo elemento "~entrar", 20</name>
+                            <title>Eu aguardo pelo elemento "~entrar", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096054368' status='passed' stop='1663096055020'>
+                            <name>Eu tap "~entrar"</name>
+                            <title>Eu tap "~entrar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096055020' status='passed' stop='1663096056228'>
+                    <name>Entao: deve ser carregado a Home do aplicativo </name>
+                    <title>Entao: deve ser carregado a Home do aplicativo </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096055020' status='passed' stop='1663096056175'>
+                            <name>Eu aguardo pelo elemento "~codigo", 10</name>
+                            <title>Eu aguardo pelo elemento "~codigo", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096056175' status='passed' stop='1663096056202'>
+                            <name>Eu aguardo pelo elemento "~aluno", 10</name>
+                            <title>Eu aguardo pelo elemento "~aluno", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096056202' status='passed' stop='1663096056228'>
+                            <name>Eu aguardo pelo elemento "~search", 10</name>
+                            <title>Eu aguardo pelo elemento "~search", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1663096056355' status='passed' stop='1663096065749'>
+            <name>Efetuar logout @FazerLogout</name>
+            <title>Efetuar logout @FazerLogout</title>
+            <labels>
+                <label name='tag' value='@Login'/>
+                <label name='tag' value='@FazerLogout'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1663096059720' status='passed' stop='1663096064505'>
+                    <name>Dado: que Matheus efetuou o login no appqazando </name>
+                    <title>Dado: que Matheus efetuou o login no appqazando </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096059720' status='passed' stop='1663096060503'>
+                            <name>Eu aguardo pelo elemento "~email", 20</name>
+                            <title>Eu aguardo pelo elemento "~email", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096060503' status='passed' stop='1663096061080'>
+                            <name>Eu preencho o campo "~email", "teste@teste.com"</name>
+                            <title>Eu preencho o campo "~email", "teste@teste.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096061080' status='passed' stop='1663096061588'>
+                            <name>Eu aguardo pelo elemento "~senha", 20</name>
+                            <title>Eu aguardo pelo elemento "~senha", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096061588' status='passed' stop='1663096062638'>
+                            <name>Eu preencho o campo "~senha", "123456"</name>
+                            <title>Eu preencho o campo "~senha", "123456"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096062638' status='passed' stop='1663096063147'>
+                            <name>Eu aguardo pelo elemento "~entrar", 20</name>
+                            <title>Eu aguardo pelo elemento "~entrar", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096063147' status='passed' stop='1663096063318'>
+                            <name>Eu tap "~entrar"</name>
+                            <title>Eu tap "~entrar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096063318' status='passed' stop='1663096064453'>
+                            <name>Eu aguardo pelo elemento "~codigo", 10</name>
+                            <title>Eu aguardo pelo elemento "~codigo", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096064453' status='passed' stop='1663096064477'>
+                            <name>Eu aguardo pelo elemento "~aluno", 10</name>
+                            <title>Eu aguardo pelo elemento "~aluno", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096064477' status='passed' stop='1663096064505'>
+                            <name>Eu aguardo pelo elemento "~search", 10</name>
+                            <title>Eu aguardo pelo elemento "~search", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096064505' status='passed' stop='1663096064699'>
+                    <name>Quando: ele clicar no botão Logout </name>
+                    <title>Quando: ele clicar no botão Logout </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096064505' status='passed' stop='1663096064534'>
+                            <name>Eu aguardo pelo elemento {"android":"~logout","ios":"(//XCUIElementTypeOther[@name=\"logout\"])[2]"}, 10</name>
+                            <title>Eu aguardo pelo elemento {"android":"~logout","ios":"(//XCUIElementTypeOther[@name=\"logout\"])[2]"}, 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096064535' status='passed' stop='1663096064699'>
+                            <name>Eu tap {"android":"~logout","ios":"(//XCUIElementTypeOther[@name=\"logout\"])[2]"}</name>
+                            <title>Eu tap {"android":"~logout","ios":"(//XCUIElementTypeOther[@name=\"logout\"])[2]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096064699' status='passed' stop='1663096065749'>
+                    <name>Entao: deve ser apresentado a página de login </name>
+                    <title>Entao: deve ser apresentado a página de login </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096064699' status='passed' stop='1663096064727'>
+                            <name>Eu aguardo pelo elemento "~email", 10</name>
+                            <title>Eu aguardo pelo elemento "~email", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096064727' status='passed' stop='1663096065729'>
+                            <name>Eu aguardo pelo elemento "~senha", 10</name>
+                            <title>Eu aguardo pelo elemento "~senha", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096065729' status='passed' stop='1663096065749'>
+                            <name>Eu aguardo pelo elemento "~entrar", 10</name>
+                            <title>Eu aguardo pelo elemento "~entrar", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1663096065906' status='passed' stop='1663096074070'>
+            <name>Login inválido @LoginInvalido</name>
+            <title>Login inválido @LoginInvalido</title>
+            <labels>
+                <label name='tag' value='@Login'/>
+                <label name='tag' value='@LoginInvalido'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1663096069321' status='passed' stop='1663096072735'>
+                    <name>Dado: que Paulo prencha o login com informações inválidas </name>
+                    <title>Dado: que Paulo prencha o login com informações inválidas </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096069321' status='passed' stop='1663096070114'>
+                            <name>Eu aguardo pelo elemento "~email", 20</name>
+                            <title>Eu aguardo pelo elemento "~email", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096070115' status='passed' stop='1663096071185'>
+                            <name>Eu preencho o campo "~email", "teste@invalido"</name>
+                            <title>Eu preencho o campo "~email", "teste@invalido"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096071186' status='passed' stop='1663096071687'>
+                            <name>Eu aguardo pelo elemento "~senha", 20</name>
+                            <title>Eu aguardo pelo elemento "~senha", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096071687' status='passed' stop='1663096072735'>
+                            <name>Eu preencho o campo "~senha", "123456"</name>
+                            <title>Eu preencho o campo "~senha", "123456"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096072735' status='passed' stop='1663096073419'>
+                    <name>Quando: ele clicar no botão Entrar </name>
+                    <title>Quando: ele clicar no botão Entrar </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096072735' status='passed' stop='1663096073246'>
+                            <name>Eu aguardo pelo elemento "~entrar", 20</name>
+                            <title>Eu aguardo pelo elemento "~entrar", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096073246' status='passed' stop='1663096073419'>
+                            <name>Eu tap "~entrar"</name>
+                            <title>Eu tap "~entrar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096073419' status='passed' stop='1663096074070'>
+                    <name>Entao: deve ser carregado uma mensagem informando o erro </name>
+                    <title>Entao: deve ser carregado uma mensagem informando o erro </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096073419' status='passed' stop='1663096074070'>
+                            <name>Eu aguardo pelo elemento "~lognFail", 10</name>
+                            <title>Eu aguardo pelo elemento "~lognFail", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1663096074210' status='passed' stop='1663096082186'>
+            <name>Login sem informar senha @LoginSemInformarSenha</name>
+            <title>Login sem informar senha @LoginSemInformarSenha</title>
+            <labels>
+                <label name='tag' value='@Login'/>
+                <label name='tag' value='@LoginSemInformarSenha'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1663096077628' status='passed' stop='1663096081467'>
+                    <name>Dado: que Paulo prencha o login sem informar senha </name>
+                    <title>Dado: que Paulo prencha o login sem informar senha </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096077628' status='passed' stop='1663096078420'>
+                            <name>Eu aguardo pelo elemento "~email", 20</name>
+                            <title>Eu aguardo pelo elemento "~email", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096078420' status='passed' stop='1663096079908'>
+                            <name>Eu preencho o campo "~email", "teste@teste.com"</name>
+                            <title>Eu preencho o campo "~email", "teste@teste.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096079909' status='passed' stop='1663096080418'>
+                            <name>Eu aguardo pelo elemento "~senha", 20</name>
+                            <title>Eu aguardo pelo elemento "~senha", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096080418' status='passed' stop='1663096081467'>
+                            <name>Eu preencho o campo "~senha", </name>
+                            <title>Eu preencho o campo "~senha", </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096081467' status='passed' stop='1663096082153'>
+                    <name>Quando: ele clicar no botão Entrar </name>
+                    <title>Quando: ele clicar no botão Entrar </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096081467' status='passed' stop='1663096081979'>
+                            <name>Eu aguardo pelo elemento "~entrar", 20</name>
+                            <title>Eu aguardo pelo elemento "~entrar", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1663096081979' status='passed' stop='1663096082152'>
+                            <name>Eu tap "~entrar"</name>
+                            <title>Eu tap "~entrar"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1663096082153' status='passed' stop='1663096082186'>
+                    <name>Entao: deve ser carregado uma mensagem informando o erro </name>
+                    <title>Entao: deve ser carregado uma mensagem informando o erro </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1663096082153' status='passed' stop='1663096082186'>
+                            <name>Eu aguardo pelo elemento "~lognFail", 10</name>
+                            <title>Eu aguardo pelo elemento "~lognFail", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
